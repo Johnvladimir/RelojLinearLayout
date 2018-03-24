@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reloj LinearLayout</string>
+    <string name="text_hour_example">12:00</string>
+    <string name="text_city_example">20 March, San Salvador</string>
+    <string name="activity_main_title">Titulo 1</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context="com.example.john.relojlinearlayout.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:text="@string/text_hour_example" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="#00F"
+        android:textSize="24sp"
+        android:text="@string/text_city_example"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginBottom="25dp"
+                android:text="Cuidad 1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginBottom="25dp"
+                android:text="Cuidad 1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Cuidad 1"/>
+
+        </LinearLayout>
+
+        <view
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            >
+
+        </view>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="50dp"
+                android:text="00:00"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="50dp"
+                android:text="00:00"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="50dp"
+                android:text="00:00"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
